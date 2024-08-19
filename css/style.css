@@ -1,0 +1,21 @@
+.option-item{
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+.option-item:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.option-item img{
+    max-width: 200px;
+    max-height: 100px;
+    object-fit: cover;
+}
+.btn-dark{
+    background-color: black;
+}
+.btn-light{
+    background-color: #ddd;
+}
